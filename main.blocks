@@ -1,0 +1,53 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="hI_^(4zQDp2t=V|k7}7{">mySprite</variable><variable type="KIND_SpriteKind" id="jbFtwiIfkA?bG$O^IsKH">Player</variable><variable type="KIND_SpriteKind" id="1/c2trGHlU0Uz//cw3V0">Projectile</variable><variable type="KIND_SpriteKind" id="sJGQVQPs.%n)wVU(Fo~H">Food</variable><variable type="KIND_SpriteKind" id="9o)GihC@I0:FcR:PN/IW">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="typescript_statement" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="let mySprite: Sprite = null" numlines="1" declaredvars="mySprite"></mutation><next><block type="gamesettilemap"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="map"><shadow type="tilemap_image_picker"><field name="img">img`
+2 f f f f f f f f 2 
+2 . . . . . . . . 2 
+2 2 2 . . . . . f 2 
+f . 2 . . . . f f 2 
+f . . . . . . f . 2 
+f . . 2 2 2 2 2 . 2 
+f . . . . 2 2 2 . 2 
+f f f f f f f f f 2 
+`</field></shadow></value><next><block type="gamesettilemap"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="map"><shadow type="tilemap_image_picker"><field name="img">img`
+2 f f f f f f f f 2 
+2 . . . . . . . . 2 
+2 2 2 . . . . . f 2 
+f . 2 . . . . f f 2 
+f . . . . . . f . 2 
+f . . 2 2 2 2 2 . 2 
+f . . . . 2 2 2 . 2 
+f f f f f f f f f 2 
+`</field></shadow></value><next><block type="gamesettile"><value name="index"><shadow type="colorindexpicker"><field name="index">8</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value><next><block type="camerafollow"><value name="sprite"><shadow type="variables_get"><field name="VAR" id="hI_^(4zQDp2t=V|k7}7{">mySprite</field></shadow></value><next><block type="variables_set"><field name="VAR" id="hI_^(4zQDp2t=V|k7}7{">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 2 2 2 2 2 2 2 f 
+f 2 f f f f f f f f f f f f 2 f 
+f 2 f 2 2 2 2 2 2 2 2 2 2 f 2 f 
+f 2 f 2 f f f f f f f f 2 f 2 f 
+f 2 f 2 f 2 2 2 2 2 2 f 2 f 2 f 
+f 2 f 2 f 2 f f f f 2 f 2 f 2 f 
+f 2 f 2 f 2 f 8 8 f 2 f 2 f 2 f 
+f 2 f 2 f 2 f 8 8 f 2 f 2 f 2 f 
+f 2 f 2 f 2 f f f f 2 f 2 f 2 f 
+f 2 f 2 f 2 2 2 2 2 2 f 2 f 2 f 
+f 2 f 2 f f f f f f f f 2 f 2 f 
+f 2 f 2 2 2 2 2 2 2 2 2 2 f 2 f 
+f 2 f f f f f f f f f f f f 2 f 
+f 2 2 2 2 2 2 2 2 2 2 2 2 2 2 f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
